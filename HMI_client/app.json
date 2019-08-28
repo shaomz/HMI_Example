@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/weather/weather",
+    "pages/navigation1/navigation1",
+    "pages/navigation2/navigation2",
+    "pages/navigation3/navigation3",
+    "pages/identification/identification",
+    "pages/customer_service/customer_service",
+    "pages/convenient_life/convenient_life",
+    "pages/vehicle_service/vehicle_service"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "SVM_Group4",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#F5F5F5",
+    "borderStyle": "white",
+    "color": "#9DACB7",
+    "selectedColor": "#4D8AD7",
+    "list": [
+      {
+        "pagePath": "pages/vehicle_service/vehicle_service",
+        "text": "owner service",
+        "iconPath": "imgs/car_gray.png",
+        "selectedIconPath": "imgs/car_blue.png"
+      },
+      {
+        "pagePath": "pages/convenient_life/convenient_life",
+        "text": "easy life",
+        "iconPath": "imgs/house_gray.png",
+        "selectedIconPath": "imgs/house_blue.png"
+      },
+      {
+        "pagePath": "pages/customer_service/customer_service",
+        "text": "customer service",
+        "iconPath": "imgs/Service_gray.png",
+        "selectedIconPath": "imgs/Service_blue.png"
+      }
+    ]
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.0",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
