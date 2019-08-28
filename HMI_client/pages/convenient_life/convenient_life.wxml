@@ -1,0 +1,7 @@
+<!--pages/convenient_life/convenient_life.wxml-->
+<view class="container">
+  <text class="{{b1}}" bindtouchstart="n1">丨home丨</text>
+  <text class="{{b2}}" bindtouchstart="n2">丨weather丨</text>
+  <text class="{{b3}}" bindtouchstart="n3">丨navigation丨</text>
+</view>
+

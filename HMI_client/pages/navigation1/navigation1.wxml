@@ -1,0 +1,14 @@
+<!--pages/index1/index1.wxml-->
+<view class="container" >
+<view>
+  <view class="view1">
+    <text class="font">Start:</text>
+    <input placeholder="INPUT" bindinput='input1'  />
+  </view>
+  <view class="view1">
+    <text class="font">End:</text>
+    <input placeholder="INPUT" bindinput='input2'  />
+  </view>
+</view>
+  <text class="item" bindtouchstart="guihua" >Navigation</text>
+</view>

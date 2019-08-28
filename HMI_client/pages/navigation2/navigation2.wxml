@@ -1,0 +1,9 @@
+<!--pages/navigation2/navigation2.wxml-->
+<view class="map_box">
+  <map id="navi_map" longitude="121.218153" latitude="31.288172" scale="13" markers="{{markers}}" polyline="{{polyline}}"></map>
+</view>
+<view class="text_box">
+  <view class="text">{{distance}}</view>
+  <view class="text1">其它地区的导航原理类似，由于时间原因不做展示</view>
+  <view class="detail_button" bindtouchstart="goDetail">详情</view>
+</view>

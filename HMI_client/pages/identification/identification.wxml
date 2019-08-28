@@ -1,0 +1,11 @@
+<!--pages/identification/identification.wxml-->
+<view class="container">
+  <view class="txt" wx:if="{{face_result == '2' || face_result == '1'}}" >
+    <!-- <view class="item1" >
+      <text>vehicle speed:{{speed}}</text>
+      <text>vehicle distance:{{distance}}</text>
+    </view> -->
+    <image src="http://192.168.43.91:8080/video_feed"></image>
+  </view>
+  <text class="item2" bindtap="face_detect">{{btn}}</text>
+</view>

@@ -1,0 +1,24 @@
+/* pages/convenient_life/convenient_life.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: #F5F5F5;
+  color: #9DACB7;
+  font-size: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  font-family: "Microsoft Yahei";
+}
+.item2{
+  background-color: #F5F5F5;
+  color: #4D8AD7;
+  border: 2px solid #4D8AD7;
+}
+.item1{
+  background-color: #F5F5F5;
+  color: #9DACB7;
+  border: 2px solid #9DACB7;
+}

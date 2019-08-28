@@ -1,0 +1,6 @@
+<!--pages/vehicle_service/vehicle_service.wxml-->
+<view class="container" >
+  <image class="figure" style="width: 100%; height: 40%; background-color: #F5F5F5;" mode="aspectFit" src="http://192.168.43.91:8081/video_feed" ></image>
+  <text class="{{btn_color}}" catchtouchstart="streamRecord" catchtouchend="streamRecordEnd" >{{button}}</text>
+  <image wx:if="{{biaozhi}}" class="figure" style="width: 100%; height: 40%; background-color: #F5F5F5;" mode="aspectFit" src="http://192.168.43.91:8082/video_feed" ></image>
+</view>

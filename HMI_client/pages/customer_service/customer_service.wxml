@@ -1,0 +1,16 @@
+<!--pages/customer_service/customer_service.wxml-->
+<!--pages/index2/index2.wxml-->
+<view class="container">
+  <view wx:for="{{messages}}" wx:key="{{index}}" wx:for-item="i">{{i}}</view>
+</view>
+<view class="container1">
+    <text>请输入消息：</text>
+    <input placeholder="请输入" bindinput='input'  />
+</view>
+<view class="container2">
+  <text wx:if="{{yangshi}}" class="item" bindtouchstart="qufan" >{{kaiguan}}</text>
+  <text wx:else class="item1" bindtouchstart="qufan" >{{kaiguan}}</text>
+  <text class="item" bindtouchstart="send" >发送</text>
+</view>
+
+

@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: #F5F5F5;
+  color: #9DACB7;
+  font-size: 30px;
+  position: absolute;
+  font-family: "Microsoft Yahei";
+}
+.figure{
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  color: #F5F5F5;
+  font-family: "Microsoft Yahei";
+}

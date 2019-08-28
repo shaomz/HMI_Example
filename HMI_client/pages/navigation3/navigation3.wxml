@@ -1,0 +1,4 @@
+<!--pages/navigation3/navigation3.wxml-->
+<view class="text_box" wx:for="{{steps}}" wx:for-item="i">
+  {{i.instruction}}
+</view>
